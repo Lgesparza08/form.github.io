@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="stylesheet" content="width=device-width"
+        initial-scale="1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
+        <title>Form</title>
+
+    </head>
+
+    <header>
+        <h1>Form</h1>
+    </header>
+
+    <table>
+        <tr>
+            <td>Name:</td>
+            <td><label><input type="text" name="username" size="30"></label></td>
+        </tr>
+
+        <tr>
+            <td>E-mail Adress:</td>
+            <td><label><input type="email" name="Email" size="30" placeholder="Enter your email address"></label></td>
+        </tr>
+
+        <tr>
+            <td>Mailing Address:</td>
+            <td><label><input type="text" size="30" name="Mailing Address" placeholder="Enter your mailing address"></label></td>
+        </tr>
+
+        <tr>
+            <td>City:</td>
+            <td><label><input type="text" size="30" name=city></label></td>
+        </tr>
+
+        <tr>
+            <td><label for=state>State:</label></td>
+            <td><select name=state id=state>
+                <optgroup label="states">
+                <option>Alabama</option>
+                <option>Alaska</option>
+                <option>Arizona</option>
+                <option>Arkansas</option>
+                <option>California</option>
+                <option>Colorado</option>
+                <option>Connectitcut</option>
+                <option>Delaware</option>
+                <option>Florida</option>
+                <option>Georgia</option>
+                <option>Hawaii</option>
+                <option>Idaho</option>
+                <option>Illinois</option>
+                <option>Indiana</option>
+                <option>Iowa</option>
+                <option>Kansas</option>
+                <option>Kentucky</option>
+                <option>Louisiana</option>
+                <option>Maine</option>
+                <option>Maryland</option>
+                <option>Massachussetts</option>
+                <option>Michigan</option>
+                <option>Minnesota</option>
+                <option>Mississippi</option>
+                <option>Montana</option>
+                <option>Nebraska</option>
+                <option>Nevada</option>
+                <option>New Hampshire</option>
+                <option>New Mexico</option>
+                <option>New York</option>
+                <option>North Carolina</option>
+                <option>North Dakota</option>
+                <option>Ohio</option>
+                <option>Oklahoma</option>
+                <option>Oregon</option>
+                <option>Pennsylvania</option>
+                <option>Rhode Island</option>
+                <option>South Carolina</option>
+                <option>South Dakota</option>
+                <option>Tennesse</option>
+                <option>Texas</option>
+                <option>Utah</option>
+                <option>Vermont</option>
+                <option>Virginia</option>
+                <option>Washington</option>
+                <option>West Virginia</option>
+                <option>Wisconsin</option>
+                <option>Wyoming</option>
+            </optgroup>
+            </select></td>
+        </tr>
+
+        <tr>
+            <td>Zip:</td>
+            <td><label><input type="text" name=Zip size=5></label></td>
+        </tr>
+
+        <tr>
+            <td>Phone:</td>
+        <td><label><input type=text name=Phone size=10></label></td>
+    </tr>
+
+    <!--Radio Buttons-->
+
+    <tr>
+        <td>Level:</td>
+        <td>
+            <label><input type=radio id=button1 name=button>Easy</label> <br>
+            <label><input type=radio id=button2 name=button>Medium</label> <br>
+            <label><input type=radio id=button3 name=button>Hard</label> <br>
+        </td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="checkbox"><input type=checkbox name=checkbox id=checkbox>Yes, I would like to opt in to texts.</label>
+        </td>
+    </tr>
+
+    <tr>
+        <td>Comments:</td>
+        <td><label><textarea name=Comments id=Comments cols=60 rows=8 placeholder="Enter Comments Here"></textarea></label></td>
+    </tr>
+
+    <tr>
+        <td>
+            <label for="submit"><input type=submit value=sibmit> 
+            <input type=submit value=clear></label>
+        </td>
+    </tr>
+
+    </table>
+    <footer>
+        &copy; HTML Class 2025
+    </footer>
+</html>
